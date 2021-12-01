@@ -10,7 +10,7 @@ public class Registration {
         if (email.contains("yahoo")) {
             return email;
         }else {
-        return null;
+        return "wrong address";
     }}
 
         public void setEmail (String email){
@@ -29,7 +29,7 @@ public class Registration {
         if(password!=userName && password.length()>6){
             return password;
         }else{
-            return null;
+            return "wrong password";
         }}
 
         public void setPassword (String password){
