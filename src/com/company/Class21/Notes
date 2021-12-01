@@ -1,0 +1,15 @@
+Overriding:
+Overriding happens when same methods exist in parents and child class.
+Benefits:
+we can have specific implementation for a method that is already defined in the Parent class.
+Tha we have this flexibility that we don't have to come up with different names
+if we are doing same thing again in the child classes.
+Rules:
+1) We can change the access modifier in child class but we can make it
+only less restrictive for example we can change protected or default to public
+but we can't do reverse.
+2) static methods have the same rules but we use a diffeerent terminology
+we say we are re-declaring a method instead of overriding
+3)return types must be same in overriding
+4)name must be same
+5)parameters shoild also be the same
