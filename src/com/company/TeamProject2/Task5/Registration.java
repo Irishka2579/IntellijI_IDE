@@ -37,7 +37,7 @@ public class Registration {
         }
     }
 
-    class Tester {
+    class  Tester {
         public static void main(String[] args) {
             Registration obj = new Registration();
             obj.setUserName("George");
@@ -47,6 +47,9 @@ public class Registration {
             obj.setPassword("letMein");
             System.out.println(obj.getPassword());
 
+
+            
+            
         }
     }
 
