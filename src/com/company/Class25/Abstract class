@@ -1,0 +1,14 @@
+Abstract class:
+They are classes with the abstract keyword that we use when
+we are not sure how to implement the some or all methods.
+
+Rules:
+1)Must participate in inheritance otherwise we will not be able
+to use any instance methods or fields.
+2)Abstract class can have 0 or any number of abstract methods
+3)As soon as one method is declared abstract, the class needs to be declared as abstract
+4)We can have non-abstract  methods as well inside the abstract
+5)Abstract keyword connot be used with fields and constructor
+6)Abstract keyword cannot be used with fields and constructor
+7)We need a child class to provide implementations of abstract methods
+8)When we extend an abstract class we must either provide the implementation
