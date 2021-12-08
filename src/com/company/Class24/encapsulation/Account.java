@@ -19,8 +19,7 @@ public class Account{//encapsulation within the class
     right click-Generate-getter and setter -all fields-ok
     */
     public String getName(){
-        return name;
-    }
+        return name;}
 public void setName(String name) {
     if (name.length() < 20) {
         this.name = name;

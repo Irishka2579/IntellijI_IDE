@@ -1,0 +1,23 @@
+AutoBoxing
+The automatic conversion of primitive data types into its
+equialent Wrapper is called autoboxing
+Integer i=10;//autoboxing
+
+Unboxing:
+The conversion of equivalent Wrapper to primitive data types
+is called unboxing
+Integer i=new Integer(10);//boxing
+int i2=i.value()//unboxing
+Autoboxing:
+The conversion of equivalent Wrapper to primitive data types
+is called unboxing
+Integer 1=10;//autoboxing
+int i2=i//auto unboxing
+
+collection framework:
+Collection provides architecture to store and manipulate
+the group of objects the represented as a single unit
+we have many interfaces and classes inside the framework to achieve this
+
+ArrayList
+<>diamond operator is used to specify the data type in collections framework.
