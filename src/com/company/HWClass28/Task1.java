@@ -14,23 +14,25 @@ public class Task1 {
         cc.put("Italy","Milan");
         cc.put("Russia","Moscow");
         System.out.println(cc);
+        System.out.println("_____________________________");
 
         Set<Map.Entry<String, String>> entrySet = cc.entrySet();
         for (Map.Entry<String, String> entry : entrySet) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+        System.out.println("_____________________________");
         Iterator<Map.Entry<String,String>> iterator1=cc.entrySet().iterator();
         while(iterator1.hasNext()){
             Map.Entry<String,String>c= iterator1.next();
             System.out.println(c.getKey()+" "+c.getValue());
     }
-
+        System.out.println("_____________________________");
         Collection<String> values= cc.values();
         for(String value:values){
             System.out.println(value);
         }
 
-        System.out.println("- - - - - - - - - - - - - - - - ");
+        System.out.println("__________________________");
 
         Iterator<String> iterator2= values.iterator();
         while(iterator2.hasNext()){
