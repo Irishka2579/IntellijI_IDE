@@ -1,6 +1,7 @@
 package com.company.HWClass26;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
@@ -16,6 +17,13 @@ public class Task8 {
         country.add("New York");
         System.out.println(country);
 
+        for(String c:country){
+            System.out.println(c);
+        }
+       Iterator<String>iterator =country.iterator();
+        while(iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
         ArrayList<String> arrayList=new ArrayList<>(country);//2nd way
         System.out.println(arrayList);
     }
